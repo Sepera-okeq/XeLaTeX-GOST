@@ -27,7 +27,7 @@
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
 \ProvidesClass{G7-32}[2015/11/01 v2.0 Non Standard LaTeX document class]
 
-\RequirePackage{G2-105}
+\RequirePackage{G7-32/tex/G2-105}
 % minimal values from ГОСТ 7.32-2001 ред. 2009 года.pdf item 6.1.2
 % (a4paper is already selected as the default by GostBase.clo)
 \RequirePackage[right=10mm,top=20mm,bottom=20mm,left=30mm,headsep=0pt,includefoot]{geometry}
@@ -39,7 +39,7 @@
 % 
 % TODO: drop any stuff in the head that occupies space and use includeall.
 
-\RequirePackage{G7-32}
+\RequirePackage{G7-32/tex/G7-32}
 
 
 \gosttitle{Gost7-32}% use GOST7.32-2001 title by default
